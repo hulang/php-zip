@@ -1,0 +1,17 @@
+{
+    "name": "hulang/php-zip",
+    "description": "PHP Packing compression unzipping Class",
+    "version": "1.0.0",
+    "authors": [{
+        "name": "hulang",
+        "email": "hulangfy@163.com"
+    }],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "hulang\\": "src/"
+        }
+    }
+}
