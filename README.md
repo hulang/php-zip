@@ -1,22 +1,22 @@
 ### PHP 目录、文件打包压缩解压类-支持所有压缩包类型
 
-### 使用composer进行安装
+#### 使用composer进行安装
 ~~~
 composer require hulang/php-zip
 ~~~
 
-### 使用composer进行更新
+#### 使用composer进行更新
 ~~~
 composer update hulang/php-zip
 ~~~
 
-### 引入类文件
-~~~
+#### 引入类文件
+~~~php
 use hulang/Zip;
 ~~~
 
-### 使用说明
-~~~
+#### 使用说明
+~~~php
 //实例化Zip类
 $zip = new Zip();
 //单文件打包
